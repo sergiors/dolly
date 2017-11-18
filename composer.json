@@ -1,0 +1,25 @@
+{
+    "name": "sergiors/dolly",
+    "description": "Zend expressive skeleton. Begin developing PSR-7 middleware applications in seconds!",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "http-interop/http-middleware": "^0.4.1",
+        "zendframework/zend-expressive": "^2.0.5",
+        "xtreamwayz/pimple-container-interop": "^1.0",
+        "zendframework/zend-expressive-fastroute": "^2.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Sergiors\\Dolly\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sergiors\\Dolly\\Tests\\": "test"
+        }
+    }
+}
